@@ -1,4 +1,5 @@
 Summary:	Program to extract or upload Xbox ISO images to an Xbox
+Summary(pl):	Program do wyci±gania i wrzucania obrazów Xbox ISO do Xboksa
 Name:		gxiso
 Version:	1.2
 Release:	1
@@ -11,7 +12,12 @@ BuildRequires:	python-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-gXiso is GTK2 program to extract or upload Xbox ISO images to an Xbox.
+gXiso is GTK+2 program to extract or upload Xbox ISO images to an
+Xbox.
+
+%description -l pl
+gXiso to program GTK+2 do wyci±gania i wrzucania obrazów Xbox ISO do
+Xboksa.
 
 %prep
 %setup -q
@@ -32,9 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog NEWS README TODO
-
 %attr(755,root,root) %{_bindir}/*
-
 %{_datadir}/%{name}
 %dir %{py_sitescriptdir}/%{name}
 %{py_sitescriptdir}/%{name}/*py[co]
