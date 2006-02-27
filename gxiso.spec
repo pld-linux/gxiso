@@ -1,12 +1,12 @@
 Summary:	Program to extract or upload Xbox ISO images to an Xbox
 Summary(pl):	Program do wyci±gania i wrzucania obrazów Xbox ISO do Xboksa
 Name:		gxiso
-Version:	1.4
+Version:	1.5
 Release:	1
 License:	GPL
 Group:		Networking
-Source0:	http://kassoulet.free.fr/files/%{name}-%{version}.tar.gz
-# Source0-md5:	5794317eab5981dfc82266e83bec23cc
+Source0:	http://download.berlios.de/gxiso/%{name}-%{version}.tar.gz
+# Source0-md5:	c5e8e24b57ca6fe652ddc24f7e8ca4ba
 URL:		http://gxiso.berlios.de/
 BuildRequires:	python
 BuildRequires:	python-devel
