@@ -1,5 +1,5 @@
 Summary:	Program to extract or upload Xbox ISO images to an Xbox
-Summary(pl):	Program do wyci±gania i wrzucania obrazów Xbox ISO do Xboksa
+Summary(pl.UTF-8):   Program do wyciÄ…gania i wrzucania obrazÃ³w Xbox ISO do Xboksa
 Name:		gxiso
 Version:	1.5
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 gXiso is GTK+2 program to extract or upload Xbox ISO images to an
 Xbox.
 
-%description -l pl
-gXiso to program GTK+2 do wyci±gania i wrzucania obrazów Xbox ISO do
+%description -l pl.UTF-8
+gXiso to program GTK+2 do wyciÄ…gania i wrzucania obrazÃ³w Xbox ISO do
 Xboksa.
 
 %prep
