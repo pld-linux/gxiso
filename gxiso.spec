@@ -1,5 +1,5 @@
 Summary:	Program to extract or upload Xbox ISO images to an Xbox
-Summary(pl.UTF-8):   Program do wyciągania i wrzucania obrazów Xbox ISO do Xboksa
+Summary(pl.UTF-8):	Program do wyciągania i wrzucania obrazów Xbox ISO do Xboksa
 Name:		gxiso
 Version:	1.5
 Release:	1
