@@ -10,7 +10,7 @@ Source0:	http://download.berlios.de/gxiso/%{name}-%{version}.tar.gz
 URL:		http://gxiso.berlios.de/
 BuildRequires:	python
 BuildRequires:	python-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 Requires:	python-pygtk-gtk
 Requires:	python-pygtk-glade
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
